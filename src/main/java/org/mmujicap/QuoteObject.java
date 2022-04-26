@@ -8,6 +8,10 @@ class QuoteObject {
     int id;
     String quote;
 
+    public QuoteObject() {
+        super();
+    }
+
     public QuoteObject(int i, String s) {
         super();
         this.id = i;

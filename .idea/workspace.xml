@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="801e35b1-199c-4dfd-986f-94fd7641389c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteObject.java" afterDir="false" />
+    <list default="true" id="801e35b1-199c-4dfd-986f-94fd7641389c" name="Changes" comment="DELETE, POST, GET implemented. PUT still needs confirmation. GET quotes needs pagination.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/MyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/MyResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/mmujicap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/mmujicap/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/mmujicap/MyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/mmujicap/MyResource.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +81,17 @@
       <updated>1650915550290</updated>
       <workItem from="1650915552763" duration="246000" />
       <workItem from="1650933632506" duration="9492000" />
-      <workItem from="1650976700169" duration="7295000" />
+      <workItem from="1650976700169" duration="7391000" />
+      <workItem from="1650984333977" duration="2682000" />
     </task>
+    <task id="LOCAL-00001" summary="DELETE, POST, GET implemented. PUT still needs confirmation. GET quotes needs pagination.">
+      <created>1650984301724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650984301725</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +108,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DELETE, POST, GET implemented. PUT still needs confirmation. GET quotes needs pagination." />
+    <option name="LAST_COMMIT_MESSAGE" value="DELETE, POST, GET implemented. PUT still needs confirmation. GET quotes needs pagination." />
   </component>
 </project>

@@ -7,9 +7,9 @@ import java.util.List;
 
 
 /**
- * Root resource (exposed at "v1/quoteservice" path)
+ * Root resource (exposed at "quotes/v1" path)
  */
-@Path("v1/quoteservice")
+@Path("quotes/v1")
 public class QuoteService {
 
     QuoteList<QuoteObject> listOfQuotes = QuoteList.getInstance();
@@ -22,6 +22,7 @@ public class QuoteService {
     {
         return listOfQuotes;
     }
+
 
     /**
      * Method handling HTTP GET requests. The returned object will be sent

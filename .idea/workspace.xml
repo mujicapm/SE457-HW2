@@ -4,13 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="801e35b1-199c-4dfd-986f-94fd7641389c" name="Changes" comment="" />
+    <list default="true" id="801e35b1-199c-4dfd-986f-94fd7641389c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/MyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/MyResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mmujicap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/mmujicap/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/mmujicap/MyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/mmujicap/MyResource.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="28IsggQHL5xWWF8YXpH87UNBgsZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,13 +44,39 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.27" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.mmujicap" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.mmujicap.Main" />
+      <module name="HW2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mmujicap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,11 +87,24 @@
       <option name="presentableId" value="Default" />
       <updated>1650915550290</updated>
       <workItem from="1650915552763" duration="246000" />
-      <workItem from="1650933632506" duration="120000" />
+      <workItem from="1650933632506" duration="9492000" />
+      <workItem from="1650976700169" duration="7295000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

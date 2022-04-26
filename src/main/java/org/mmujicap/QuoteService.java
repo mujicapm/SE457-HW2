@@ -1,8 +1,7 @@
 package org.mmujicap;
 
 import jakarta.ws.rs.*;
-import jakarta.ws.rs.core.MediaType;
-
+import jakarta.ws.rs.core.*;
 import java.util.List;
 
 
@@ -18,8 +17,7 @@ public class QuoteService {
     // ordered by identifier
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public List<QuoteObject> getAllQuotes()
-    {
+    public List<QuoteObject> getAllQuotes() {
         return listOfQuotes;
     }
 
@@ -33,10 +31,9 @@ public class QuoteService {
     @GET
     @Path("{id}")
     @Produces(MediaType.APPLICATION_JSON)
-    public QuoteObject getQuoteById(@PathParam("id") int id)
-    {
+    public QuoteObject getQuoteById(@PathParam("id") int id) {
         for (QuoteObject quote : listOfQuotes) {
-            if(quote.getId()==id)
+            if (quote.getId() == id)
                 return quote;
         }
 
@@ -46,12 +43,12 @@ public class QuoteService {
     // Adds a quote and returns the quote identifier
     @POST
     @Consumes(MediaType.TEXT_PLAIN)
-    public int addQuote(String quote){
+    public int addQuote(String quote) {
         if (listOfQuotes.size() == 0) {
             QuoteObject newQuote = new QuoteObject(1, quote);
             return 1;
         } else {
-            int newID = listOfQuotes.get(listOfQuotes.size()-1).id + 1;
+            int newID = listOfQuotes.get(listOfQuotes.size() - 1).id + 1;
             QuoteObject newQuote = new QuoteObject(newID, quote);
             listOfQuotes.add(newQuote);
             return newID;
@@ -78,6 +75,6 @@ public class QuoteService {
     @Path("{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public void deleteQuote(@PathParam("id") int id) {
-        listOfQuotes.removeIf(e -> e.getId()==id);
+        listOfQuotes.removeIf(e -> e.getId() == id);
     }
 }

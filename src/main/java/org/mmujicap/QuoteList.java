@@ -38,4 +38,5 @@ public class QuoteList<Q> extends ArrayList<org.mmujicap.QuoteObject> {
     public List<QuoteObject> getListOfQuotes() {
         return this;
     }
+
 }

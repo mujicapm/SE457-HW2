@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="801e35b1-199c-4dfd-986f-94fd7641389c" name="Changes" comment="GET quotes needs pagination.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mmujicap/QuoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/mmujicap/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/mmujicap/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/mmujicap/MyResourceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/mmujicap/MyResourceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.mmujicap" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.mmujicap" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.mmujicap" />
     </key>
@@ -91,7 +91,7 @@
       <workItem from="1650933632506" duration="9492000" />
       <workItem from="1650976700169" duration="7391000" />
       <workItem from="1650984333977" duration="3414000" />
-      <workItem from="1650991868776" duration="4808000" />
+      <workItem from="1650991868776" duration="7989000" />
     </task>
     <task id="LOCAL-00001" summary="DELETE, POST, GET implemented. PUT still needs confirmation. GET quotes needs pagination.">
       <created>1650984301724</created>
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650988076017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GET quotes needs pagination.">
+      <created>1650997807531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650997807531</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

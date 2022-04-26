@@ -4,7 +4,8 @@ package org.mmujicap;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 
-class QuoteObject {
+//Tried to implement sorting, but running into errors when implementing
+class QuoteObject { //implements Comparable {
     int id;
     String quote;
 
@@ -31,4 +32,10 @@ class QuoteObject {
         this.quote = quote;
     }
 
+//    @Override
+//    public int compareTo(QuoteObject quote) {
+//        int compareID=quote.getId();
+//        return this.id-compareID;
+//
+//    }
 }

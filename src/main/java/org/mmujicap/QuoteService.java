@@ -2,12 +2,19 @@ package org.mmujicap;
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
+
+import javax.management.*;
+import javax.persistence.Query;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 
 /**
  * Root resource (exposed at "quotes/v1" path)
  */
+
+//versioning supported via the URL
 @Path("quotes/v1")
 public class QuoteService {
 
@@ -15,6 +22,27 @@ public class QuoteService {
 
     // Gets all quotes that have been added to the service,
     // ordered by identifier
+
+    //Deeply frustrating. Tried implementing pagination and sort multiple different ways, but no luck.
+    // Would have been useful to get a bit more guidance prior to tackling pagination.
+    // Assumed a lot of prior knowledge
+
+//    @GET
+//    @Produces(MediaType.APPLICATION_JSON + ";charset=utf-8")
+//    public String getAllQuotes(@Context UriInfo uriInfo) {
+//        MultivaluedMap<String, String> params =
+//                uriInfo.getQueryParameters();
+//        String pageStart = params.getFirst("pageStart");
+//        String pagesSize = params.getFirst("pagesSize");
+//        if (pageStart != null && pagesSize != null) {
+//            //validate and parse pagination params into int then
+//            //filter orders
+//            message += "Performed pagination on the orders. pageStart: "
+//                    + pageStart + ", pagesSize: " + pagesSize;
+//        }
+//        return message;
+//    }
+
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<QuoteObject> getAllQuotes() {
@@ -53,6 +81,7 @@ public class QuoteService {
             listOfQuotes.add(newQuote);
             return newID;
         }
+        //Collections.sort(listOfQuotes);
     }
 
     // Replace a quote with a given identifier with a new quote
